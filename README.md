@@ -76,10 +76,10 @@
 
 ### Windows：一行命令
 
-把 `<owner>/<repo>` 换成你的 GitHub 仓库：
+直接运行：
 
 ```powershell
-$env:OPENCODE_SUPERAGENT_REPO="<owner>/<repo>"; irm https://raw.githubusercontent.com/<owner>/<repo>/main/install.ps1 | iex
+$env:OPENCODE_SUPERAGENT_REPO="StarRail2077/opencode-superagent"; irm https://raw.githubusercontent.com/StarRail2077/opencode-superagent/main/install.ps1 | iex
 ```
 
 如果已经解压到本地，也可以直接：
@@ -97,7 +97,7 @@ sh ./install.sh
 或从 GitHub 下载并执行：
 
 ```sh
-OPENCODE_SUPERAGENT_REPO=<owner>/<repo> sh -c "$(curl -fsSL https://raw.githubusercontent.com/<owner>/<repo>/main/install.sh)"
+OPENCODE_SUPERAGENT_REPO=StarRail2077/opencode-superagent sh -c "$(curl -fsSL https://raw.githubusercontent.com/StarRail2077/opencode-superagent/main/install.sh)"
 ```
 
 > 一行命令会下载仓库的 `main` 分支归档，再调用 `scripts/install.sh`。如果使用 Release 压缩包，解压后运行根目录的 `install.sh` 即可。
@@ -175,7 +175,7 @@ git init
 git add .
 git commit -m "feat: OpenCode desktop superagent with watchdog"
 git branch -M main
-git remote add origin git@github.com:<owner>/<repo>.git
+git remote add origin git@github.com:StarRail2077/opencode-superagent.git
 git push -u origin main
 ```
 
