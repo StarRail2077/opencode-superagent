@@ -1,0 +1,29 @@
+# Dependencies and build cache
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local state and secrets
+.env
+.env.*
+opencode.json
+opencode.jsonc
+superagent-profile.json
+*.local
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Release output
+release/
+*.zip
+*.tar.gz
+*.tgz
+
+# Coverage
+coverage/

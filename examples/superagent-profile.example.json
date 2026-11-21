@@ -1,0 +1,24 @@
+{
+  "kind": "opencode-superagent-profile",
+  "version": 1,
+  "exportedAt": "2026-01-01T00:00:00.000Z",
+  "plugin": {
+    "package": "opencode-superagent",
+    "version": "0.1.0"
+  },
+  "settings": {
+    "language": "zh-CN",
+    "watchdogEnabled": false,
+    "watchdogIntervalSec": 90,
+    "stallAfterSec": 300,
+    "workerModel": null,
+    "watchdogModel": null,
+    "workerAgent": null,
+    "watchdogAgent": null,
+    "autoRecover": true,
+    "notifyOnEscalation": true,
+    "allowNestedSubagents": false,
+    "maxWorkers": 8,
+    "watchdogInstructions": ""
+  }
+}
